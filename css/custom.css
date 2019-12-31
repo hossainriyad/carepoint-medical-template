@@ -1,0 +1,484 @@
+/*======================
+   GOOGLE FONTS CSS EMBED
+========================*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+
+/*===================
+  CUSTOM CSS
+====================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+    padding:0;
+}
+a, a:hover {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.custom-btn {
+    display: inline-block;
+    font-size:16px;
+    font-weight:700;
+    color:#fff;
+    background:#0087be;
+    text-transform: uppercase;
+    padding:10px 30px;
+    border-radius:30px;
+    transition: all 0.5s ease-in-out;
+}
+.custom-btn:hover {
+    color:#fff;
+    box-shadow:5px 4px 4px 1px #494949;
+}
+
+
+/*========================
+   HEADER SECTION CSS
+==========================*/
+.top-header {
+    padding:30px 0 20px;
+    border-bottom:1px solid #e0e0e0;
+}
+.header-time .media, .header-email .media, .header-phone .media {
+    align-items: center;
+}
+.header-time .media-body h5, .header-email .media-body h5, .header-phone .media-body h5 {
+    font-size:16px;
+    color:#6a6a6a;
+    font-weight:700;
+    text-transform: uppercase;
+}
+.header-time .media-body p, .header-email .media-body p, .header-phone .media-body p {
+    font-size:13px;
+    color:#6a6a6a;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size:18px;
+    font-weight:700;
+    color:#6c6c6c;
+    padding: 15px 20px 15px 0px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#262626;
+}
+.bottom-header .social-icon ul li a {
+    color:#191919;
+}
+.bottom-header .social-icon ul li:last-child {
+    margin-right:0px;
+}
+
+
+
+
+/*========================
+   BANNER SECTION CSS
+==========================*/
+.banner-section {
+    background:url('../images/banner-image.jpg') no-repeat center center;
+    background-size: cover;
+}
+.banner-section .row {
+    min-height:90vh;
+}
+.banner-content h1 {
+    font-size:38px;
+    font-weight:700;
+    color:#474747;
+}
+.banner-content p {
+    font-size:16px;
+    color:#3f3f3f;
+    line-height:1.7;
+    padding:20px 0 30px;
+}
+
+
+/*========================
+   APPOINTMENT SECTION CSS
+==========================*/
+.appointment-section {}
+.appointment-section .row .col-sm-6.col-lg-3 {
+    padding: 0px;
+}
+.treatment {
+    background:#43b1d2;
+}
+.emergency-help {
+    background:#3fb6c6; 
+}
+.medical-staff {
+    background:#3cbbbb;
+}
+.quality-doctor {
+    background:#37c3a8;
+}
+.appointment-box {
+    padding:50px;
+}
+.appointment-box .appointment-icon {
+    background:#fff;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    border-radius: 180px;
+}
+.appointment-box h2 {
+    font-size:26px;
+    font-weight:700;
+    color:#fff;
+    padding:10px 0 15px;
+}
+.appointment-box p {
+    font-size:16px;
+    color:#fff;
+}
+
+
+/*==================
+    ABOUT SECTION CSS
+====================*/
+.about-section {
+    padding:80px 0 0;
+}
+.about-content:first-child {
+    padding-bottom:60px;
+}
+.about-content .flex{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about-content p {
+    font-size:16px;
+    color:#6a6a6a;
+    line-height:1.8;
+    padding-top:15px;
+}
+.about-icon {
+    background: #1a9bdc;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    border-radius: 180px;
+    float: left;
+    margin-right: 15px;
+}
+.icon-heading h2 {
+    font-size:28px;
+    color:#6f6f6e;
+    font-weight: 700;
+}
+.about-content-box {
+    position: relative;
+    padding:130px 0 80px !important; 
+}
+.about-content-box img.about-image {
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform: translate(-50%);
+}
+
+
+/*==================
+  SERVICE SECTION CSS
+====================*/
+.service-countable-section {
+    background:url('../images/service-bg.jpg') no-repeat center center;
+    background-size:cover;
+    padding:80px 0px;
+}
+.service-box {
+    color:#fff;
+}
+.service-box img {}
+.service-box h3 {
+    font-size:50px;
+    font-weight:700;
+    padding-top: 25px;
+}
+.service-box .border-line {
+    display:inline-block;
+    width:85px;
+    height:5px;
+    background:#fff;
+    margin:15px auto;
+}
+.service-box p {
+    font-size: 18px;
+}
+
+
+
+/*==================
+   WORK SECTION CSS
+====================*/
+.work-section {
+    padding:80px 0;
+}
+.creative-heading, .work-heading {
+    padding-bottom:50px;
+}
+.creative-heading p, .work-heading p {
+   font-size:16px;
+    color:#6a6a6a;
+    line-height:1.7; 
+}
+.work-section .card {
+    border: none;
+}
+.work-section .card-body {
+    padding:25px 0px
+}
+.work-section .card-body h4 {
+    font-size:22px;
+    color: #6f6f6e;
+    padding-bottom:7px;
+}
+.work-section .card-body p.date {
+    font-size:16px;
+    color:#0087be;
+}
+.work-section .card-body p.card-text {
+    font-size:16px;
+    color:#6a6a6a;
+    line-height:1.7;
+    padding-top:15px;
+}
+.creative-accordion {}
+.creative-accordion .accordion>.card .card-header {
+    margin-bottom:10px;
+}
+.creative-accordion .card-header {
+    padding:0;
+    background:#e2e2e2;
+    border:none;
+    border-radius:27px !important;
+    transition: all 0.5s ease-in-out;
+}
+.creative-accordion h2 .btn-link {
+    font-size:18px;
+    font-weight:600;
+    color: #494949;
+    transition: all 0.5s ease-in-out;
+}
+.creative-accordion h2 .btn-link i {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 15px;
+    display: inline-block;
+    color:#0087be;
+}
+.creative-accordion .btn-link:focus {
+    text-decoration: none;
+}
+.creative-accordion .card-body {
+    padding:10px 0;
+}
+.creative-accordion .card-body p {
+    font-size:16px;
+    color:#6a6a6a;
+}
+.creative-accordion .card-header:hover {
+    background:#0087be;
+}
+.creative-accordion .btn-link:hover {
+    color:#fff;
+    text-decoration: none;
+}
+.accordion-more {
+    margin-top:40px;
+}
+
+
+/*==================
+   GALLERY & TEAM SECTION CSS
+====================*/
+.gallery-section {
+    background: url('../images/gallery-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 80px 0;
+}
+.team-section {
+    padding: 80px 0;
+}
+.about-heading h1, .creative-heading h1, .work-heading h1, .gallery-heading h1, .team-heading h1 {
+    font-size:40px;
+    font-weight: 700;
+    color:#494949;
+    padding-bottom:30px;
+}
+.about-heading p, .work-heading p, .gallery-heading p, .team-heading p {
+    font-size:16px;
+    color:#6a6a6a;
+    line-height:1.7;
+    max-width: 950px;
+    margin: auto;
+}
+.about-content-box, .gallery-content-section, .team-content-section {
+    padding-top:50px;
+}
+.team-content h2 {
+    font-size:22px;
+    font-weight:600;
+    color:#6f6f6e;
+    padding:20px 0 7px;
+}
+.team-content p {
+    font-size:16px;
+    color:#6f6f6e;
+}
+.team-content .social-icon {
+    padding-top: 20px;
+}
+.team-content .social-icon ul li a {
+    color:#0087be;
+}
+.team-content .social-icon ul li a:hover {
+    color:#121212;
+}
+.gallery-heading h1, .gallery-heading p {
+    color: #fff;
+}
+.gallery-image {
+    margin:15px;
+}
+.gallery-image img {
+    width: 100%;
+}
+
+/*==========================
+   CONSULTATION SECTION CSS
+============================*/
+.consult-section {
+    background:#e2e2e2;
+    padding:60px 0;
+}
+.consult-section .row {
+    align-items: center;
+}
+.consult-content p {
+    font-size:28px;
+    color:#494949;
+    font-weight:700; 
+}
+
+/*==================
+  FOOTER SECTION CSS
+====================*/
+.top-footer {
+    background:#171717;
+    padding:80px 0;
+}
+.footer-heading {
+    padding-bottom:55px;
+}
+.footer-heading h2 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+.media-body p {
+    font-size:16px;
+    color:#fff;
+    opacity:0.51;
+}
+.footer-service ul, .footer-menu ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.footer-service ul li, .footer-menu ul li {
+    padding-bottom:5px;
+}
+.footer-service ul li a, .footer-menu ul li a {
+    font-size:14px;
+    color:#fff;
+    opacity:0.51;
+}
+.footer-service ul li i, .footer-menu ul li i {
+    font-size:16px;
+    color:#0087be;
+    padding-right:15px;
+    transition: all 0.5s ease-in-out;
+}
+.footer-service ul li a:hover, .footer-menu ul li a:hover {
+    opacity:1;
+}
+.footer-form input[type="text"], .footer-form input[type="tel"], .footer-form textarea {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #818181;
+    font-size: 14px;
+    padding: 10px 0px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+}
+.footer-form input[type="submit"]{
+    text-transform: uppercase;
+    font-size:16px;
+    font-weight:700;
+    color:#fff;
+    background:#0087be;
+    border:none;
+    padding:7px 30px;
+    border-radius:20px;
+    margin-top:20px; 
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+.footer-form input[type="submit"]:hover {
+    box-shadow:5px 4px 4px 1px #0087be7a;
+}
+.social-icon ul {
+    margin:0;
+    padding:0;
+}
+.social-icon ul li {
+    display: inline-block;
+    margin-right:15px;
+}
+.social-icon ul li a {
+    color:#fff;
+    font-size: 22px;
+    transition:all 0.5s ease-in-out;
+}
+.social-icon ul li a:hover {
+    color:#0087be;
+}
+.bottom-footer {
+    padding:46px 0;
+    background:#1a1a1a;
+}
+.footer-content p {
+    font-size:16px;
+    color:#615555;
+}
+.footer-content p a {
+    color:#615555;
+    transition: all 0.5s ease-in-out;
+}
+.footer-content p a:hover {
+    color:#0087be;
+}
+
+
+
+
